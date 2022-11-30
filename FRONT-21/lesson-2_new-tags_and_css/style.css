@@ -1,0 +1,108 @@
+/* tag-name */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* header {
+    background: darkmagenta ;
+    color : aliceblue ;
+}
+
+h2 {
+    background-color: magenta;
+}
+
+section {
+    background-color: violet;
+    color : lightcyan ;
+}
+
+aside {
+    background: indigo;
+    color: whitesmoke;
+} */
+
+main {
+    background: fuchsia;
+    color: azure;
+    padding: 23px;
+    /* text-align: center; */
+}
+
+.img-wrapper {
+    text-align: center;
+}
+
+img {
+    margin-top: 23px;
+    width: 301px;
+    /* height: 301px; */
+}
+
+p {
+    margin-top: 23px;
+    background-color: aqua;
+}
+
+.text {
+    background-color: red;
+    color : black;
+}
+
+/* ! SELECT BY ID */
+#uniq {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    width: 200px ;
+    text-align: center;
+}
+
+/* ! SELECT BY CLASSNAME */
+.text-wrapper {
+    text-align : end;
+}
+
+/* .uniq-text {
+    margin: 23px;
+    color: violet;
+} */
+/* 
+footer {
+    background-color: darkviolet;
+    color: lightskyblue;
+}
+ */
+
+
+
+ /* Practice */
+
+ /* * Web-page */
+/* 1) h2 - must be in the middle of the header block */
+/* header > h2 */
+/* 2) main - > ul  */
+/* ul - > 3*li with class "list-item" */
+/*  the second list-item (li) should have id = "uniq-item"*/
+/*li > padding : 15px ; */
+/* ul > margin : 20px ; */
+/* 3) footer  */
+
+/* Homework */
+/* Idia : 
+*  Web-page tematic about homeless pets
+*/
+/* 1. Create web-page (index.html)*/
+/* 1.1 use for semantic it : header , section , aside , footer , nav  */
+/* 2. Use style */
+/* 3. Put there padding / margin / background / color / text-align */
+
+
+/* ! */
+/* 1) Semantic */
+/* 2) CSS  */
+/* 3) padding , margin , background , text-align , styling of lists */
+/* 4) Attrs ? Modif */
+/* 5) ID && CLASSES  */

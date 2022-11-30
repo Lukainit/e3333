@@ -1,0 +1,101 @@
+* {
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+    
+   font-family: sans-serif;
+}
+
+#app {
+    background: #232323;
+}
+
+a {
+    text-decoration: none;
+    font-weight:600;
+    color: magenta ;
+    font-style: italic;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    padding: 23px;
+    background: darkmagenta;
+    text-align: center;
+}
+
+.header__input {
+    width: 250px;
+    height: 32px;
+    outline: 3px solid magenta;
+}
+
+.header__title {
+    color: aliceblue;
+    margin-top: 23px;
+}
+
+.nav {в апреле
+    margin-top: 23px;
+    padding: 16px;
+}
+
+.nav__item {
+    width:128px ;
+    margin-top: 64px;
+}
+
+.nav__link {
+    display: block;
+    border: 3px solid violet;
+    padding: 6px 0px;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    height: 800px;
+    color: aliceblue;
+}
+
+.main__image {
+    width: 413px;
+    height: 413px;
+    margin-top: 23px;
+    border: 3px dotted magenta;
+    border-radius: 50%;
+}
+
+.main__text {
+    margin-top: 23px;
+    font-size: 23px;
+}
+
+.subheader {
+    background-color: magenta;
+    padding: 23px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+/* .text {
+    width: 20%;
+    float: left;
+}
+
+.subheader__input {
+    width: 30%;
+    float: left;
+} */
+
+/* 
+.text , .subheader__text{
+    display: inline;
+} */
+
+/* .subheader__input {
+    margin: 0 128px;
+} */

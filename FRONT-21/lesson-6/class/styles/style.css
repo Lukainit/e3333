@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../public/fonts/roboto/Roboto-Bold.ttf");
+}
+
+/* * You might put here everything you want */
+/* :root { 
+    */
+    /* ! RULES : 1) When you create variable you have to put "--" in the beginning */
+    /* 
+    --primary-bg :  linear-gradient(rgb(192 , 251 , 255), rgb(241,199,255));
+    --skills-bg : #2AA4FE;
+    --primary-font : roboto;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#app {
+    height: 100vh;
+    /* background: linear-gradient(rgb(192 , 251 , 255), rgb(241,199,255));; */
+    font-family: roboto;
+}
+
+.profile-article {
+    text-transform: uppercase;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    display: flex;
+    width: 50%;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 1.3rem;
+    background: linear-gradient(rgb(192 , 251 , 255), rgb(241,199,255));
+}
+
+.icon-wrapper {
+    margin-right: 2rem;
+}
+
+.icon {
+    width:2rem;
+}
+
+.honor-icon {
+    height:2rem;
+    width: 1.2rem;
+}
+
+.honor-text {
+    margin-left: .8rem;
+}
+
+.article {
+    font-size: .8rem;
+}

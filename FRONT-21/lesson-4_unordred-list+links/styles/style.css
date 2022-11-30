@@ -1,0 +1,88 @@
+/* * STYLE up to you */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color : inherit;
+}
+
+li {
+    list-style-type:none ;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: magenta;
+    color : white;
+}
+
+.header__logo  {
+    background-color: darkmagenta;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.logo-wrapper {
+    width: 80%;
+    padding: 23px;
+
+}
+
+.header__link {
+    font-size: 23px;
+}
+
+.container {
+    background-color: darkblue;
+    height: 1500px;
+}
+
+.sidebar {
+    padding: 16px;
+    width: 30%;
+    height: 1500px;
+    background: blue;
+    float: left;
+}
+
+.product {
+    margin-top: 13px;
+}
+
+.product__image {
+    width: 100%;
+}
+
+.main {
+    padding: 13px;
+    width: 70%;
+    float: right;
+    height: 1500px;
+    background: skyblue;
+}
+
+.main > .product > .img-wrapper > .product__image{
+    width: 80%;
+    background: skyblue;
+}
+
+.main > .product > .product__description {
+    float: right;
+    background-color: azure;
+    width: 40%;
+
+}
+
+.button-wrapper {
+    text-align: center;
+}

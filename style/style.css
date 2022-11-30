@@ -1,0 +1,35 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+};
+
+.product{
+    width: 150px;
+    height: 150px;
+    border: 1px solid darkturquoise;
+}
+
+.prod-1 {
+    background-color: rgb(156, 30, 125);
+    
+}
+.prod-2 {
+    background-color: rgb(180, 107, 16);
+
+}
+.prod-3 {
+    background-color: rgb(109, 25, 187);
+
+}
+.prod-4 {
+
+    background-color: rgb(201, 20, 180);
+
+}
+.prod-5 {
+
+    background-color: rgb(199, 32, 20);
+
+}

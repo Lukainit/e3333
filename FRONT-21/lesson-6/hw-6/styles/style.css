@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 1rem = 16px */
+
+#app {
+    background-color: darkmagenta;
+    font-family: sans-serif;
+    color : aliceblue;
+}
+
+.header,.footer{
+    text-transform: uppercase;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background: linear-gradient(violet , magenta);
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .logo-wrapper {
+    float: left;
+} */
+
+/* .logo-wrapper {
+    display: inline-block;
+} */
+
+.logo {
+    cursor: pointer;
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: 5px 8px 12px 4px darkmagenta;
+    transform: rotate(0deg);
+    transition: 800ms ease ;
+}
+
+.logo:hover {
+    box-shadow: 4px 4px 15px 8px rgb(210, 0, 210);
+    transform: rotate(360deg);
+
+}
+
+.content {
+    padding: 5rem;
+}
+
+.content__img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.content__img {
+    width: 70%;
+    height: 15rem;
+    background: radial-gradient(magenta , violet);
+    border: .6rem solid indigo;
+    border-radius: .5rem;
+}
+
+.content__info {
+    margin-top: 2rem;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.fake-img {
+    /* width: 30%;
+    height: 5rem;
+    background: magenta;
+    padding: 1rem;
+    margin-top: 2rem; */
+    /* float: left; */
+}
+
+.button {
+    padding: .8rem 2.4rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 100;
+    border-radius: .4rem;
+    background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/02/Usign-Gradients-Featured-Image.jpg?w=960&h=600&crop=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
