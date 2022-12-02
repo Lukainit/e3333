@@ -252,4 +252,212 @@ if(ShopBullshit != ShopBullshit.phone){
     console.log('все есть')
 };
 
-]
+
+let numBer = 50; 
+
+while(numBer <= 55) {
+    numBer+-
+    console.log(numBer)
+
+    if(numBer === 54){
+        break
+        
+    }
+};
+
+
+const num = 1000; 
+
+switch (num) {
+    case 49: 
+        console.log('ok');
+        break;
+    case 100: 
+        console.log('100')
+        break;
+    default: 
+        console.log('нихуя не верно')
+        break
+
+};
+
+
+
+const cola = 4,
+      fanta = 5, 
+      sprite = 4 
+
+let budget = 0; 
+
+if(cola && fanta <= budget ){
+    console.log('ты напился')
+}else{
+    console.log('у тебя попросту нету денег. сорян чувак')
+};
+
+ const hamburger = true
+ const fries = !true
+
+ if(hamburger && fries){
+    console.log('я сыт');
+ }else if (hamburger && fries === false ){
+    console.log('ничего нету');
+ };
+
+
+
+
+
+
+const shcool = "Bullshit"
+
+let ok = 'school'
+
+if(shcool == 'Bullshit'){
+    console.log( `${shcool} = ${ok}`)
+}else if(shcool === 1){
+    for(let i = 0; i < 10; i++){
+        console.log(i)
+        if(i == 8){
+            break
+        }
+    }
+}; 
+
+
+
+
+const people = null;
+
+const city = {
+    Dnepr: {
+        people: ['good', 'with money']
+    },
+
+    newYork: {
+        money: false,
+    }
+};
+
+console.log(city.Dnepr['0']);
+
+
+
+const hamburger = true; 
+
+const fries = !true; 
+
+if(hamburger && fries){
+    console.log('я сыт!')
+}
+
+console.log((hamburger && fries));
+
+
+const hamBurger = 3; 
+const frIes = 0; 
+const coLa = 0;
+
+console.log((hamBurger === 3 && frIes && coLa))
+
+console.log(1 && 4);
+
+console.log(null && !3)
+
+console.log(true && true); 
+
+if(hamBurger === 1 && frIes && coLa){
+    console.log('all right')
+}else{
+    console.log('bad')
+};
+
+
+console.log(null && undefined)
+
+
+
+
+console.log(1 && !1);
+
+console.log(null && undefined)
+
+console.log( 0 && ''); 
+
+
+const hamBurger = 0; 
+const fries = 3; 
+const cola = 0; 
+const nuggets = 2
+
+console.log(hamBurger === 3 && cola === 2 || fries === 3 && nuggets); 
+
+ 
+
+if(hamBurger === 3 && cola === 2 || fries === 3 && nuggets){
+    console.log('все довольны')
+}else{
+    console.log('мы уходим')
+};
+
+
+let jonhReport, alexReport, sameReport = 'done';
+
+console.log( jonhReport || alexReport || sameReport);
+
+
+
+if( jonhReport || alexReport || sameReport){
+    console.log('bad')
+}else{
+    console.log('good')
+}
+
+
+console.log(1 && 2 && 0); 
+
+console.log(1 && 5);
+
+
+
+console.log(!1 && 2 || !3)
+
+console.log(25 || null && !3);
+
+console.log( NaN || null || !3 || undefined || 5);
+
+
+ 
+console.log( NaN || null && !3 && undefined || 5);
+
+
+console.log( 5 === 5 && 3 > 1 || 5);
+
+
+
+const hamburger = 3;
+const fries = 3;
+const cola = 0;
+const nuggets = 2;
+ 
+if (hamburger === 3 && cola || fries === 3 && nuggets) {
+   console.log('Done!')
+}
+
+
+
+
+
+
+
+
+
+const modelS = 2000; 
+const modelX = 0000; 
+const modelY = 2000; 
+const modelXS = 2000; 
+
+if(modelS === 4000 || modelX === 5000 || modelY === 1000 && modelXS){
+    console.log('у нас есть две тачки')
+}
+         
