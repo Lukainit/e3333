@@ -1,26 +1,101 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style2.css">
-    <title>Document</title>
+    <title>bullshit3000</title>
 </head>
 <body>
 
-
-
-
     <script>
-        
 
-        const 
+// const signIn = +prompt('how old r u?', '');
+
+// if (signIn < 18) {
+//     console.log("very young person!!!")
+// } else if(signIn > 18) {
+//     console.log('all right')
+// } else {
+//    console.log('Error404')
+// }; 
+
+
+let helloFriend;
+
+function start(){
+
+    helloFriend = +prompt('Hello friend. u really wont visit this site? "yes or not"', ''); 
+
+        while (helloFriend == '' || helloFriend == null ) { 
+
+            helloFriend = +prompt('Hello friend. u really wont visit this site? "yes or not"', ''); 
+
+    };
+
+};
+
+start();
+
+
+const mrRobotDB = {
+    count: helloFriend, 
+    mrObject: {}, 
+}; 
+
+
+function rememberQuestions(){
+
+//    for(let i = 0; i < 2; i++){
+
+       const a = prompt('u really wathched mr robot>', ''); 
+      
+       if (a == '' && a != typeof(Number)){
+           console.log('this is person not watched mr robot')
+       } else {
+           console.log('all right')
+       };
+      
+      let b = prompt('how many episodes have you watched?', '');
+
+       while(b = isNaN(b)){
+
+            prompt('how many episodes have you watched?', '');
+
+        };
+      
+       if (b < 50 && b == ''){
+           console.log('hmm')
+       } else {
+           console.log('maybe all right')
+       }; 
+         
+      mrRobotDB.mrObject[a] = b; 
+      
+//    }; 
+         
+}; 
+
+rememberQuestions();
 
 
 
+// function personallLevel() 
 
+//    if(mrRobotDb.count < 10){
+//     console.log('still not enough, well, nothing :)')
+//    } else if(mrRobotDb.count <= 20){
+//        console.log('оооо, already watching season 2!')
+//    } else if(mrRobotDb.count <= 30){
+//        console.log('fuck... this person is fierce:))')
+//    } else{
+//        console.log("error 404"); 
+//    };
+
+// }; 
+
+// personallLevel();
 
     </script>
-    
+
 </body>
 </html>

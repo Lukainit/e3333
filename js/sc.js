@@ -1,7 +1,5 @@
 
-
-
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+const numberOfFilms = +prompt('hello!', '');
 
 const personalMovieDb = {
     count: numberOfFilms,
@@ -11,453 +9,355 @@ const personalMovieDb = {
     privat: false
 };
 
+for(let i = 0; i < 2; i++) {
+    const a = prompt('один из последних просмотренных фильмов?', ''),
+          b = prompt('На сколько оцените его?', '');
+
+    if (a != null && b != null && a != '' && b != '' && a.length < 50){
+        personalMovieDb.movies[a] = b;
+        console.log('done')
+    }else{
+        console.log('error'); 
+        i--
+    }; 
 
-if(personalMovieDb < 10){
-    console.log('Просмотрено довольно мало фильмов')
-}else if(10 < 30){
-    console.log('Вы классический зритель')
-}else{
-    console.log('произошла ошибка')
-}; 
-
-const a = prompt('один из последних просмотренных фильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('один из последних просмотренных фильмов?', ''),
-      d = prompt('На сколько оцените его?', '')
-
-
-
-// personalMovieDb.movies[a] = b;
-// personalMovieDb.movies[c] = d;
-
-
-
-
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-let kirillKatas8n = 1200, //budget 1200$
-    nazarHpxxph = 1000    //budget 1000$
-
-
-//appleStore
-const someProducts = { 
-    iphone: {
-        iphone8: 12000, 
-        iphoneX: 1000, 
-        iphoneSe: 500
-    },
-    headPhones: {
-        airPods1: 300, 
-        airPods2: 1100, 
-        airPods3: 350,  
-    },
-    noteBook: {
-        macBookPro: 400,
-        macBookAir: 1000 
-    }
-}
-
-if(kirillKatas8n > someProducts.iphone['iphone8']){
-    console.log('Kirill bought a new iPhone')
-}else if(kirillKatas8n > someProducts.noteBook['macBookAir']){
-    console.log('Kirill bougt a new MacBookAir')
-}else{
-    console.log('Kirill doesn\'t have enough money')
-}
-
-
-const mcDonalds = {
-    drinks: {
-        cola: 12,
-        fanta: 13, 
-        sprite: 20
-    },
-
-    burgers: {
-        bigBurger: 40, 
-        smallBurger: 80
-    },
-
-    fries: {
-        hotFriers: 30
-    }
-};
-
-if(nazarHpxxph > mcDonalds.drinks.cola || mcDonalds.drinks['fanta']){
-    console.log('Nazar got drunk')
-}else if(nazarHpxxph > mcDonalds.burgers['bigBurger']){
-    console.log('Nazar ate')
-}else{
-    console.log('Nazar hungry and he want drink')
-}
-
-
-
-
-for(let i = 2; i <= 10; i++){
-    if(i % 2 === 0){
-        console.log(i)
-    }
-};
-
-
-
-for (let i = 2; i <= 16; i++) {
-    if (i % 2 === 0) {
-        continue;
-    } else {
-        console.log(i);
-    }
-}
-
-let i = 2; 
-
-while(i <= 15){
-    i++
-    if(i % 2 === 0){
-        continue;
-    } else{
-        console.log(i)
-    }
-}
-
-
-const arrayOfNumbers = [5, 6, 7, 8, 9, 10];
-
-for(let i = 0; i < arrayOfNumbers; i++){
-    console.log(arrayOfNumbers)
-};
-
-
-for(let i = 20; i >= 10; i--){
-    console.log(i);
-
-    if(i === 13){
-        break;
-        console.log(i)
-    }
-}
-
-
-let i = 3; 
-
-while(i <= 15){
-    i++;
-    if(i % 4 == 0){
-        continue;
-    } else{
-        console.log(i);
-    }
-}
-
-
-
-let i = 3; 
-
-while(i <= 15){
-    i++;
-    if(i % 2 === 0){
-        continue;
-    } else{
-        console.log(i);
-    }
-}
-
-
-const arr = [3, 5, 8, 16, 20, 23, 50];
-const result = [arr];
-
-console.log(arr[0])
-
-
-[ 10, 20, 'Shopping - done', 40, 'Homework - done' ]
-
-
-
-
-const lines = 8;
-let result = '';
-
-for (let i = 0; i <= lines; i++) {
-    for (let j = 0; j < lines - i; j++) {
-        result += " ";
-    }
-    for (let j = 0; j < 2 * i + 1; j++) {
-        result += "*";
-    }
-    result += "\n";
-}
-
-console.log(result)
-
-
-
-if (4 == 9){
-
-}
-
-
-a = 10; b = 10; c = a + b * 2; console.log(c / 2);
-
-let nameShop = "AppleStor"
-
-for(let someProducts = 'Apple'; someProducts < 10; someProducts.length){
-    console.log(someProducts.length)
-};
-
-
-let i = 10; 
-
-while(i <= 20){
-    console.log(i)
-}; 
-
-if(4 == 4){
-    console.log('d')
-}
-
-let num = 2; 
-
-(num === 10) ? console.log('ok') : console.log('d')
-
-
-
-const ShopBullshit = {
-
-    phone: {
-        iphoneX: ['Lightning', '83% Battery', 'New Case'],
-        poco21: ['Nothing'],
-        iphoneX: '0'
-    },
-
-    lapTop: {
-        macbook: ['air', 'pro']
-    }
-};
-
-if(ShopBullshit != ShopBullshit.phone){
-    console.log('телефонов нету')
-}else if(ShopBullshit !== ShopBullshit.phone){
-    console.log('no')
-}else{
-    console.log('все есть')
-};
-
-
-let numBer = 50; 
-
-while(numBer <= 55) {
-    numBer+-
-    console.log(numBer)
-
-    if(numBer === 54){
-        break
-        
-    }
-};
-
-
-const num = 1000; 
-
-switch (num) {
-    case 49: 
-        console.log('ok');
-        break;
-    case 100: 
-        console.log('100')
-        break;
-    default: 
-        console.log('нихуя не верно')
-        break
-
-};
-
-
-
-const cola = 4,
-      fanta = 5, 
-      sprite = 4 
-
-let budget = 0; 
-
-if(cola && fanta <= budget ){
-    console.log('ты напился')
-}else{
-    console.log('у тебя попросту нету денег. сорян чувак')
-};
-
- const hamburger = true
- const fries = !true
-
- if(hamburger && fries){
-    console.log('я сыт');
- }else if (hamburger && fries === false ){
-    console.log('ничего нету');
- };
-
-
-
-
-
-
-const shcool = "Bullshit"
-
-let ok = 'school'
-
-if(shcool == 'Bullshit'){
-    console.log( `${shcool} = ${ok}`)
-}else if(shcool === 1){
-    for(let i = 0; i < 10; i++){
-        console.log(i)
-        if(i == 8){
-            break
-        }
-    }
 }; 
 
 
-
-
-const people = null;
-
-const city = {
-    Dnepr: {
-        people: ['good', 'with money']
-    },
-
-    newYork: {
-        money: false,
-    }
-};
-
-console.log(city.Dnepr['0']);
-
-
-
-const hamburger = true; 
-
-const fries = !true; 
-
-if(hamburger && fries){
-    console.log('я сыт!')
+if(personalMovieDb.count < 10){
+    console.log("Просмотренно довольно мало фильмов")
+} else if(personalMovieDb >= 10 && personalMovieDb.count < 30){
+    console.log("вы классический зритель")
+} else if(personalMovieDb.count >= 30){
+    console.log("Вы киноман")
+}else{
+    console.log('error')
 }
 
-console.log((hamburger && fries));
 
 
-const hamBurger = 3; 
-const frIes = 0; 
-const coLa = 0;
 
-console.log((hamBurger === 3 && frIes && coLa))
+const personalMovieDb = +prompt('одна из твоих любимых серий?', '')
 
-console.log(1 && 4);
 
-console.log(null && !3)
+const mrRobotDb = {
+    count: personalMovieDb, 
+    dataB: {}
+}; 
 
-console.log(true && true); 
+for(let i = 0; i < 2; i++){
 
-if(hamBurger === 1 && frIes && coLa){
+const a = prompt("на сколько оцениваешь сериал?", ""),
+      b = prompt("какая твоя последния серия?", '')
+
+}
+
+
+
+
+const helloFriend = +prompt('Hello friend. u really won\'t visit this site?', ''); 
+
+if(helloFriend != ''){
+    alert('okay.goodbye')
+}else{
+    console.log('all right'); 
+}; 
+
+const mrRobotDB = {
+    count: helloFriend, 
+    mrObject: {}, 
+    mrMassivs: []
+}; 
+
+
+// const startTalkWithMe =
+
+const a = prompt('u really wathched mr robot>', ''); 
+
+if(a != '' && a != typeof(Number)){
+    console.log('really work')
+} 
+
+
+
+const signIn = prompt('how old r u?', '');
+
+if(signIn < 18){
+   console.log((!= sighInApp));
+}else if(signIn > 18){
+    console.log('all right, u can sigh in')
+}else{
+    console.log('okay, good shit') 
+}; 
+
+
+const helloFriend = +prompt('Hello friend. u really won\'t visit this site?', ''); 
+
+if(helloFriend == ''){
+    alert('okay.goodbye')
+}else{
+    console.log('all right'); 
+}; 
+
+function sighInApp(){
+const mrRobotDB = {
+    count: helloFriend, 
+    mrObject: {}, 
+    signInBD: signIn
+}; 
+
+for(let i = 0; i < 2; i++){
+
+const a = prompt('u really wathched mr robot>', ''); 
+
+if(a == '' && a != typeof(Number)){
+    console.log('this is person not watched mr robot')
+}else{
     console.log('all right')
-}else{
-    console.log('bad')
 };
 
+const b = prompt('how many episodes have you watched?', '');
 
-console.log(null && undefined)
-
-
-
-
-console.log(1 && !1);
-
-console.log(null && undefined)
-
-console.log( 0 && ''); 
-
-
-const hamBurger = 0; 
-const fries = 3; 
-const cola = 0; 
-const nuggets = 2
-
-console.log(hamBurger === 3 && cola === 2 || fries === 3 && nuggets); 
-
- 
-
-if(hamBurger === 3 && cola === 2 || fries === 3 && nuggets){
-    console.log('все довольны')
+if(b < 50 && b == ''){
+    console.log('hmm')
 }else{
-    console.log('мы уходим')
+    console.log('all right')
+}; 
+
+
+mrRobotDB.mrObject[a] = b; 
+
+}; 
 };
 
+function calc(a, b){
+    return (a + b)
+};
 
-let jonhReport, alexReport, sameReport = 'done';
+console.log(calc(25, 3))
+console.log(calc(25, 3))
+console.log(calc(25, 3))
+console.log(calc(25, 3))
 
-console.log( jonhReport || alexReport || sameReport);
+
+
+let num = 10
+
+function showFirstMessage (text, number) {
+    console.log(text)
+    console.log(number)
+    let num = 3333; 
+    console.log(num)
+
+}; 
+
+showFirstMessage('Hello', 3);
+console.log(num); 
+
+function calc(a , b){
+    return (a + b)
+}; 
+
+console.log(calc(2,2));
+console.log(calc(2,2));
+console.log(calc(2,2));
+calc(2,4);
+calc(2,6);
 
 
 
-if( jonhReport || alexReport || sameReport){
-    console.log('bad')
+
+const anotherNUm = ret()
+console.log(anotherNUm)
+
+const logger = function () {
+    console.log("Hello")
+
+}; 
+
+logger();
+
+const calc = (a, b) =>  {
+    return a + b
+}; 
+
+console.log(calc(3,3))
+
+
+// 1) Создайте функцию, которая будет на вход принимать 1 аргумент с именем человека и возвращать строку.
+
+// Пример: вызов функции sayHello('Антон') возвращает строку "Привет, Антон!". В решении вызывать функцию не нужно, программа сделает это за вас.
+
+// P.S. возвращать - это использовать ключевое слово return.
+
+// P.S.S. Это классическая функция-модификатор, которых мы дальше по курсу будем создавать еще много в разных видах.
+
+
+function sayHello(name) { 
+
+    console.log(sayHello);
+    return 
+
+}; 
+
+function sayHello(name){
+    console.log(sayHello)
+    name = "Привет, Антон!"
+    return name
+}; 
+
+console.log(sayHello());
+
+
+const usdCurr = 3; 
+const eEurCurr = 2; 
+
+function convert(amount, curr){
+    console.log(curr * amount); 
+}; 
+
+function convert(amount, curr){
+    console.log(curr * amount); 
+}; 
+
+convert(500, usdCurr); 
+convert(500, eEurCurr); 
+
+
+
+
+
+
+
+
+const eurCurr = 15; 
+const discount = 0.1; 
+
+function convert(amount, curr){
+    return curr * amount; 
+};
+
+function promotion(result){
+    console.log(result * discount)
+}
+
+const res = convert(500, eurCurr)
+
+promotion(res);
+
+
+function test(){
+    for(let i = 0; i < 5; i++){
+        console.log(i);
+        if(i === 3) return
+    }
+
+    console.log('Done')
+}
+
+test(); 
+
+
+// Создайте функцию, которая будет на вход принимать 1 аргумент с именем человека и возвращать строку.
+
+function sayHello (name){
+    console.log(sayHello)
+    return name 
+}
+
+sayHello('привет');
+
+// Пример: вызов функции sayHello('Антон') возвращает строку "Привет, Антон!". В решении вызывать функцию не нужно, программа сделает это за вас.
+
+
+// 2) Создайте функцию, которая принимает в себя 1 аргумент в виде целого числа и возвращает массив из трех чисел: одно на 1 меньше, сам аргумент, и число на 1 больше.
+
+// Пример: вызов функции returnNeighboringNumbers(5) возвращает массив в виде [4, 5, 6].
+
+
+function returnNeighboringNumbers(number) {
+
+
+
+    
+
+}
+
+
+function sayHello(name) {
+    console.log(sayHello)
+    return name 
+
+}
+
+
+
+// 1) Создайте функцию, которая будет на вход принимать 1 аргумент с именем человека и возвращать строку.
+
+// Пример: вызов функции sayHello('Антон') возвращает строку "Привет, Антон!". В решении вызывать функцию не нужно, программа сделает это за вас.
+
+// P.S. возвращать - это использовать ключевое слово return.
+
+// P.S.S. Это классическая функция-модификатор, которых мы дальше по курсу будем создавать еще много в разных видах.
+
+
+function sayHello (name){
+    return name
+}
+
+
+
+
+
+
+
+let helloFriend;
+
+function start(){
+    helloFriend = +prompt('hello, let\'s talk?:) pls, say yes');
+
+    while (helloFriend == '' || helloFriend == null || isNaN(helloFriend)) {
+
+        helloFriend = +prompt('hello, let\'s talk?:) pls, say yes');
+
+    }
+};
+
+start(); 
+
+// if(helloFriend == '' ){
+//     alert('fuck u')
+// }else{
+//     console.log('good')
+// }; 
+
+const personalMovieDb = +prompt('all right, what is your favorite series? ', '')
+
+const mrRobotDb = {
+    count: personalMovieDb, 
+    dataB: {}
+}; 
+
+for(let i = 0; i < 2; i++){
+
+const a = prompt("how much do you rate it?", ""),
+      b = prompt("what is your latest episode?", '')
+
+        if(a != '' && b != '' && a.length < 50){
+            console.log('good shit')
+        }else{
+            console.log('error')
+        }; 
+
+    };
+
+if(mrRobotDb.count < 10){
+    console.log('still not enough, well, nothing :)')
+}else if(mrRobotDb.count <= 20){
+    console.log('оооо, already watching season 2!')
+}else if(mrRobotDb.count <= 30){
+    console.log('fuck... this person is fierce:))')
 }else{
-    console.log('good')
-}
+    console.log("error 404"); 
+};
 
-
-console.log(1 && 2 && 0); 
-
-console.log(1 && 5);
-
-
-
-console.log(!1 && 2 || !3)
-
-console.log(25 || null && !3);
-
-console.log( NaN || null || !3 || undefined || 5);
-
-
- 
-console.log( NaN || null && !3 && undefined || 5);
-
-
-console.log( 5 === 5 && 3 > 1 || 5);
-
-
-
-const hamburger = 3;
-const fries = 3;
-const cola = 0;
-const nuggets = 2;
- 
-if (hamburger === 3 && cola || fries === 3 && nuggets) {
-   console.log('Done!')
-}
-
-
-
-
-
-
-
-
-
-const modelS = 2000; 
-const modelX = 0000; 
-const modelY = 2000; 
-const modelXS = 2000; 
-
-if(modelS === 4000 || modelX === 5000 || modelY === 1000 && modelXS){
-    console.log('у нас есть две тачки')
-}
-         

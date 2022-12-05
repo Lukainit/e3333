@@ -34,3 +34,26 @@ porscheShop(Nazar);
 
 
 
+for(let i = 0; i <= 3; i++){
+    console.log(i)
+    for(let j = 0; j < 3; j++){
+        console.log(j); 
+        for(let k = 0; )
+    }
+}; 
+
+
+ 
+let number = 7; 
+let string = "";
+
+
+
+function showFirstMessage (text) {
+    console.log(text)
+}
+
+showFirstMessage("hello world"); 
+
+
+
